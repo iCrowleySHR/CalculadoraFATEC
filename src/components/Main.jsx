@@ -71,7 +71,7 @@ function Main() {
         <label>Questões certas (peso 2): </label>
         <input
           type="number"
-          maxLength={10}
+          maxLength={2}
           style={{ width: '60vw' }}
           value={correctWeight2}
           class="form-control"
@@ -84,7 +84,7 @@ function Main() {
         <label>Questões certas (peso 1): </label>
         <input
           type="number"
-          maxLength={44}
+          maxLength={2}
           style={{ width: '60vw' }}
           value={correctWeight1}
           class="form-control"
@@ -99,7 +99,7 @@ function Main() {
           type="number"
           style={{ width: '60vw' }}
           class="form-control"
-          maxLength={100}
+          maxLength={3}
           value={essayScore}
           onChange={(e) => setEssayScore(e.target.value)}
           placeholder="Máximo: 100"
